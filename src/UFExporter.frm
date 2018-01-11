@@ -75,8 +75,7 @@ Private Sub BtnExport_Click()
     End If
     
     ' Store full file path
-   ' /////////////////////////////////////// filePath = fs.BuildPath(WorkFolder.Path, TxBxFilename.Value)
-   filePath = fs.BuildPath(C:\Users\FosterR01\Desktop\TestPath, "worksOkay.csv")
+    filePath = fs.BuildPath(WorkFolder.Path, TxBxFilename.Value)
     ' Convert append setting to mode
     If ChBxAppend.Value Then
         mode = ForAppending
